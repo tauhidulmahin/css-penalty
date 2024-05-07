@@ -3,13 +3,13 @@
     color: blue;
 }
 #parent1 p {
-    color: blue;
+    color: rgb(0, 225, 255);
 }
 #menu li {
-    color: blue;
+    color: tomato;
 }
 #container .box p {
-    color: blue;
+    color: rgb(255, 0, 106);
 }
 #main h1 {
     color: green;
@@ -33,31 +33,31 @@ nav ul li a {
 
 /* Child Selector */
 #child > p {
-    color: blue;
+    color: rgb(42, 161, 48);
 }
 #child1 > div > p {
-    color: blue;
+    color: rgb(0, 255, 179);
 }
 #childmenu > li {
-    color: blue;
+    color: rgb(187, 255, 0);
 }
 #childcontainer > .box > p {
-    color: blue;
+    color: rgb(255, 51, 0);
 }
 #childmain > article > p {
     font-weight: bold;
 }
 #childcontainer2 > div > span > a {
-    color: red;
+    color: rgb(0, 68, 255);
 }
 nav > ul > li > a {
     font-weight: bold;
 }
 .childcontainer3 > .box > span {
-    color: red;
+    color: rgb(162, 0, 255);
 }
 .childmenu3 > li {
-    color: #0000FF; /* Blue */
+    color: #ffae00;
 }
 .childcontainer4 > div > p {
     font-size: 18px;
