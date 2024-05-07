@@ -1,0 +1,66 @@
+/* Descendant Selector */
+#parent p {
+    color: blue;
+}
+#parent1 p {
+    color: blue;
+}
+#menu li {
+    color: blue;
+}
+#container .box p {
+    color: blue;
+}
+#main h1 {
+    color: green;
+}
+#container a {
+    text-decoration: none;
+}
+nav ul li a {
+    color: #333;
+}
+.container1 .box p {
+    font-style: italic;
+}
+.menu1 li {
+    font-weight: bold;
+}
+.container2 p {
+    text-decoration: underline;
+}
+
+
+/* Child Selector */
+#child > p {
+    color: blue;
+}
+#child1 > div > p {
+    color: blue;
+}
+#childmenu > li {
+    color: blue;
+}
+#childcontainer > .box > p {
+    color: blue;
+}
+#childmain > article > p {
+    font-weight: bold;
+}
+#childcontainer2 > div > span > a {
+    color: red;
+}
+nav > ul > li > a {
+    font-weight: bold;
+}
+.childcontainer3 > .box > span {
+    color: red;
+}
+.childmenu3 > li {
+    color: #0000FF; /* Blue */
+}
+.childcontainer4 > div > p {
+    font-size: 18px;
+}
+
+
